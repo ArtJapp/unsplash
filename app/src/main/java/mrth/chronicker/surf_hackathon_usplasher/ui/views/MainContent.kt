@@ -1,4 +1,4 @@
-package mrth.chronicker.surf_hackathon_usplasher
+package mrth.chronicker.surf_hackathon_usplasher.ui.views
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxSize
@@ -25,6 +25,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import mrth.chronicker.surf_hackathon_usplasher.R
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.Haiti
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.Haiti32
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.Haiti80

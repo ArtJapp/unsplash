@@ -1,4 +1,4 @@
-package mrth.chronicker.surf_hackathon_usplasher
+package mrth.chronicker.surf_hackathon_usplasher.ui.views
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import kotlinx.coroutines.delay
+import mrth.chronicker.surf_hackathon_usplasher.R
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.SurfHackathonUsplasherTheme
 
 @Composable

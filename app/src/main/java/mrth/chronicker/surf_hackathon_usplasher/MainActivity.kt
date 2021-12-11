@@ -30,33 +30,4 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
-    @Composable
-    fun Navigation() {
-        val navController = rememberNavController()
-        NavHost(navController = navController,
-            startDestination = "splash_screen") {
-            composable("splash_screen") {
-                Splash(navController = navController)
-            }
-
-            // Main Screen
-            composable("main_screen") {
-                MainContent()
-            }
-        }
-    }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    SurfHackathonUsplasherTheme {
-        Greeting("Android")
-    }
 }
