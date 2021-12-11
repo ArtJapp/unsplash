@@ -10,6 +10,8 @@ val Teal200 = Color(0xFF03DAC5)
 
 val Black = Color(0xFF000000)
 val Haiti = Color(0xFF251F26)
+val Haiti32 = Color(0x52251F26)
+val Haiti80 = Color(0xCC251F26)
 
 val LimeGreen = Color(0xFF30C150)
 val Silver = Color(0xFFC4C4C4)
@@ -18,3 +20,4 @@ val SuvaGray = Color(0xFF878787) // top line from UIKit
 
 val WhiteSmoke = Color(0xFFF2F2F2)
 val White = Color(0xFFFFFFFF)
+val White32 = Color(0x52FFFFFF)

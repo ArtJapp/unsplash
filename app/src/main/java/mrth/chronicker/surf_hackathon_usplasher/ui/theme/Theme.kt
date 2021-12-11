@@ -34,6 +34,18 @@ private val LightColorPalette = lightColors(
     */
 )
 
+//class AppColors(
+//    val logoTint: Color
+//)
+//
+//private val DarkColorCustomPalette = CustomColors(
+//    White
+//)
+//
+//private val LightColorCustomPalette = CustomColors(
+//    Haiti
+//)
+
 @Composable
 fun SurfHackathonUsplasherTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -44,6 +56,12 @@ fun SurfHackathonUsplasherTheme(
     } else {
         LightColorPalette
     }
+
+//    val customColors = if (darkTheme) {
+//        DarkColorCustomPalette
+//    } else {
+//        LightColorCustomPalette
+//    }
 
     MaterialTheme(
         colors = colors,

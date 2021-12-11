@@ -19,7 +19,7 @@ import mrth.chronicker.surf_hackathon_usplasher.ui.theme.SurfHackathonUsplasherT
 @Composable
 fun Splash(navController: NavController) {
     LaunchedEffect(key1 = true) {
-        delay(3000L)
+        delay(2000L)
         navController.navigate("main_screen")
     }
     Box(
