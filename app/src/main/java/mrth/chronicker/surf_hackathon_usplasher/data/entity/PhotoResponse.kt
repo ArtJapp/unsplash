@@ -6,10 +6,14 @@ import mrth.chronicker.surf_hackathon_usplasher.domain.models.Photo
 import mrth.chronicker.surf_hackathon_usplasher.domain.models.PhotoUrls
 
 data class PhotoResponse(
-    @SerializedName("id") val id: String?,
-    @SerializedName("description") val description: String?,
-    @SerializedName("width") val width: Int?,
-    @SerializedName("height") val height: Int?,
+    @SerializedName("id") val id: String,
+    @SerializedName("created_at") val createdAt: String,
+    @SerializedName("updated_at") val updatedAt: String,
+    @SerializedName("width") val width: Int,
+    @SerializedName("height") val height: Int,
+    @SerializedName("color") val color: String,
+    @SerializedName("likes") val likes: Int,
+    @SerializedName("description") val description: String,
     @SerializedName("urls") val urls: PhotoUrlsObj?
 ) : Transformable<Photo> {
 

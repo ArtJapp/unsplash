@@ -1,10 +1,13 @@
 package mrth.chronicker.surf_hackathon_usplasher.domain
 
 import mrth.chronicker.surf_hackathon_usplasher.data.repository.PhotoRepository
+import mrth.chronicker.surf_hackathon_usplasher.domain.models.Photo
 
 class UsplashInteractor(
-    val repository: PhotoRepository
+    private val repository: PhotoRepository
 ) {
 
-    suspend fun getImages() = repository.getImages()
+    suspend fun getImages(): List<Photo> {
+        return repository.getImages()
+    }
 }
