@@ -92,6 +92,9 @@ fun MainContent() {
                 enabled = true,
             )
         }
+        item {
+            EditorialPictures()
+        }
     }
 }
 
