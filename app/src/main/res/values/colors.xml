@@ -6,5 +6,11 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="haiti">#FF251F26</color>
+    <color name="lime_green">#FF30C150</color>
+    <color name="silver">#FFC4C4C4</color>
+    <color name="lime_green_dark">#FF42DB63</color>
+    <color name="suva_gray">#FF878787</color>
+    <color name="white_smoke">#FFF2F2F2</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
