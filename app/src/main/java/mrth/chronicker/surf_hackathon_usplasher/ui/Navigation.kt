@@ -1,4 +1,4 @@
-package mrth.chronicker.surf_hackathon_usplasher
+package mrth.chronicker.surf_hackathon_usplasher.ui
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
