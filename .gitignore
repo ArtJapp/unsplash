@@ -14,3 +14,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/src/main/java/mrth/chronicker/surf_hackathon_usplasher/data/constants/SensitiveData.kt
