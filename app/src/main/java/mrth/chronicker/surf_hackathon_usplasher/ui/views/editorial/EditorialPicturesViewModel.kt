@@ -27,7 +27,6 @@ class EditorialPicturesViewModel(
 
     fun loadImages() {
         subscribe(usplashInteractor::getImages)
-            .collectLatest {  }
             .onEach {
                 updateState(photos = it)
             }
