@@ -32,6 +32,7 @@ import mrth.chronicker.surf_hackathon_usplasher.ui.theme.Haiti80
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.LimeGreen
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.SurfHackathonUsplasherTheme
 import mrth.chronicker.surf_hackathon_usplasher.ui.theme.WhiteSmoke
+import mrth.chronicker.surf_hackathon_usplasher.ui.views.editorial.EditorialPictures
 
 @Composable
 fun MainContent() {

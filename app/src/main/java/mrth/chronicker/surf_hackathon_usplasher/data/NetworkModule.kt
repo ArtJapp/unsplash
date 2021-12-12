@@ -8,6 +8,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module
 import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 @JvmField
 val networkModule = module {
@@ -19,7 +20,8 @@ val networkModule = module {
     }
     single {
         Retrofit.Builder()
-            .baseUrl("https://api.unsplash.com/")
+            .baseUrl("https://api.unsplash.com")
+            .addConverterFactory(GsonConverterFactory.create())
             .client(get())
             .build()
     }

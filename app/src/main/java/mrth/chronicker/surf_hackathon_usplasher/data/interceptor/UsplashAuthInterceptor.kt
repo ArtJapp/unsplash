@@ -11,8 +11,8 @@ private const val AcceptVersionKey = "Accept-Version"
 object UsplashAuthInterceptor: Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         val updatedRequest = chain.request().newBuilder()
-            .addHeader("Authorization", usplashApiToken)
-            .addHeader("Accept-Version", apiVersion)
+            .addHeader(AuthorizationKey, usplashApiToken)
+            .addHeader(AcceptVersionKey, apiVersion)
             .build()
         return chain.proceed(updatedRequest)
     }
