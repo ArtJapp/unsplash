@@ -20,7 +20,7 @@ val networkModule = module {
     }
     single {
         Retrofit.Builder()
-            .baseUrl("https://api.unsplash.com/")
+            .baseUrl("https://api.unsplash.com")
             .addConverterFactory(GsonConverterFactory.create())
             .client(get())
             .build()
